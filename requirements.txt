@@ -1,0 +1,61 @@
+# Geothermal Digital Twin AI - Dependencies
+# =======================================
+
+# Core PDF processing
+PyPDF2>=3.0.1
+PyMuPDF>=1.23.0  # fitz
+
+# Text processing and chunking
+tiktoken>=0.5.1
+
+# AI/ML libraries
+openai>=1.0.0
+chromadb>=0.4.15
+open-clip-torch>=2.20.0
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0
+
+# Image processing
+Pillow>=10.0.0
+pytesseract>=0.3.10
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.11.0
+pandas>=2.0.0
+
+# 3D modeling and visualization
+pyvista>=0.42.0
+vtk>=9.2.0
+
+# Web framework
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# File monitoring
+watchdog>=3.0.0
+
+# Data processing
+ruamel.yaml>=0.17.32
+networkx>=3.1
+faiss-cpu>=1.7.4  # Use faiss-gpu if CUDA available
+
+# HTTP requests
+requests>=2.31.0
+
+# Excel processing
+openpyxl>=3.1.2
+xlsxwriter>=3.1.2
+
+# Development and testing
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Progress bars and user interface
+tqdm>=4.65.0
+
+# Optional: GPU acceleration
+# faiss-gpu>=1.7.4  # Uncomment if CUDA available
+# torch-audio>=2.0.0  # For advanced audio processing if needed
